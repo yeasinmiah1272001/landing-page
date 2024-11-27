@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Landing%20Page/tourist/src/components/Container.tsx"],"sourcesContent":["interface Props {\r\n  children: React.ReactNode;\r\n  className?: string;\r\n}\r\n\r\nimport { twMerge } from \"tailwind-merge\";\r\n\r\nconst Container = ({ children, className }: Props) => {\r\n  const newClassName = twMerge(\r\n    \" max-w-screen-xl mx-auto px-4 xl:px-0\",\r\n    className\r\n  );\r\n\r\n  return <div className={newClassName}>{children}</div>;\r\n};\r\n\r\nexport default Container;\r\n"],"names":[],"mappings":";;;;AAKA;;;AAEA,MAAM,YAAY,CAAC,EAAE,QAAQ,EAAE,SAAS,EAAS;IAC/C,MAAM,eAAe,CAAA,GAAA,2JAAA,CAAA,UAAO,AAAD,EACzB,yCACA;IAGF,qBAAO,8OAAC;QAAI,WAAW;kBAAe;;;;;;AACxC;uCAEe"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Landing%20Page/tourist/src/components/TouristAgency.tsx"],"sourcesContent":["import Container from \"./Container\";\r\n\r\nconst TouristAgency = () => {\r\n  return (\r\n    <Container className=\"gird md:grid-cols-2 bg-zinc-500 justify-between\">\r\n      {/* left side */}\r\n      <div className=\"bg-slate-600\"></div>\r\n      {/* right side */}\r\n      <div className=\"bg-gray-600\"></div>\r\n    </Container>\r\n  );\r\n};\r\n\r\nexport default TouristAgency;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,gBAAgB;IACpB,qBACE,8OAAC,+HAAA,CAAA,UAAS;QAAC,WAAU;;0BAEnB,8OAAC;gBAAI,WAAU;;;;;;0BAEf,8OAAC;gBAAI,WAAU;;;;;;;;;;;;AAGrB;uCAEe"}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 71, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Landing%20Page/tourist/src/app/page.tsx"],"sourcesContent":["import TouristAgency from \"@/components/TouristAgency\";\nimport React from \"react\";\n\nconst Homepage = () => {\n  return (\n    <div>\n      <TouristAgency />\n    </div>\n  );\n};\n\nexport default Homepage;\n"],"names":[],"mappings":";;;;AAAA;;;AAGA,MAAM,WAAW;IACf,qBACE,8OAAC;kBACC,cAAA,8OAAC,mIAAA,CAAA,UAAa;;;;;;;;;;AAGpB;uCAEe"}},
+    {"offset": {"line": 92, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 103, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 103, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Landing%20Page/tourist/src/app/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Homepage = () => {\n  return <div>Homepage</div>;\n};\n\nexport default Homepage;\n"],"names":[],"mappings":";;;;;AAEA,MAAM,WAAW;IACf,qBAAO,8OAAC;kBAAI;;;;;;AACd;uCAEe"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
